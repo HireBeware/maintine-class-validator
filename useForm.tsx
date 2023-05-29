@@ -1,10 +1,7 @@
 import { useForm as mantineUseForm } from '@mantine/form';
 import { validateSync } from 'class-validator';
 import { Enum } from 'typescript-string-enums';
-
-type Entries<T> = {
-    [K in keyof T]: T[K];
- };
+import { Entries } from './types';
 
 export const useForm = <T extends object>(args: { 
       dto: T, 
