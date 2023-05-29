@@ -1,5 +1,5 @@
 {
-  "name": "@hirebeware/mantine-class-validator",
+  "name": "mantine-class-validator",
   "version": "1.0.0",
   "description": "Use class-validator with Mantine Forms",
   "author": "HireBeware / David Oelfke",
