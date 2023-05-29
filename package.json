@@ -1,0 +1,24 @@
+{
+  "name": "mantine-class-validator",
+  "version": "1.0.0",
+  "description": "Use class-validator with Mantine Forms",
+  "author": "HireBeware / David Oelfke",
+  "private": false,
+  "license": "MIT",
+  "main": "./dist/useForm.js",
+  "typings": "./dist/useForm.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HireBeware/maintine-class-validator.git"
+  },
+  "scripts": {
+    "emit-declarations": "tsc --declaration --emitDeclarationOnly",
+    "build": "yarn emit-declarations && tsc",
+    "publish": "npm publish"
+  },
+  "peer-dependencies": {
+    "@mantine/form": "^6.0.11",
+    "class-validator": "^0.14.0",
+    "typescript-string-enums": "^1.0.0"
+  }
+}
